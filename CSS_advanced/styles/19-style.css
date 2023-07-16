@@ -179,6 +179,12 @@ h6 {
     padding: 0.5rem;
   }
 
+  .col-1-2 {
+    width: 0.5em;
+    float: right;
+    padding: 0.5rem;
+  }
+
   .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
