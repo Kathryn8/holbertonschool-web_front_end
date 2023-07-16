@@ -1,5 +1,6 @@
-@import https:
-  //cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css;: root {
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+
+:root {
   --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
