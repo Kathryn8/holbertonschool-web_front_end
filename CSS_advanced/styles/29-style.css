@@ -111,10 +111,6 @@ ul.row {
   color: var(--nav-item-link-hover);
 }
 
-.nav-item a:hover {
-  color: var(--color-white);
-}
-
 .nav .nav-link::before {
   content: '';
   position: absolute;
@@ -241,7 +237,7 @@ ul.row {
   --nav-item-letter-spacing: .04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem;
-  --nav-item-link-hover: var(--color-primary);
+  --nav-item-link-hover: var(--color-white);
   --section-tagline-margin: 0;
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
