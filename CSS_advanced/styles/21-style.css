@@ -52,12 +52,6 @@ ul.row {
   list-style: none;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 [class^=".col-"] {
   float: left;
   padding: 0.5rem;
@@ -200,4 +194,10 @@ ul.row {
 
 .footer {
   padding: var(--footer-padding);
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
